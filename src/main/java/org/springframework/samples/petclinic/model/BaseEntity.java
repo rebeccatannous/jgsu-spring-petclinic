@@ -31,7 +31,8 @@ import javax.persistence.MappedSuperclass;
  */
 @MappedSuperclass
 public class BaseEntity implements Serializable {
-//12
+
+	// 12
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
